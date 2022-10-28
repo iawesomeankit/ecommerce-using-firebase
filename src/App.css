@@ -1,5 +1,8 @@
 .flex {
   display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -8,7 +11,19 @@
   background-color: #61dafb;
   padding: 20px 30px;
 }
-
-.product-item {
+.product-item{
+  width: max-content;
+  background-color: rgb(147, 141, 141);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.product-item img {
+  height: 200px;
+  width: 200px;
   padding: 20px;
+
 }
